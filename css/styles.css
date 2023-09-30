@@ -32,20 +32,6 @@ address {
   font-style: normal;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .container {
   width: 1440px;
   margin: 0 auto;
@@ -55,6 +41,7 @@ address {
 
 .header {
   background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation-container {
@@ -64,7 +51,6 @@ address {
   width: 1158px;
   height: 72px;
   padding: 0 15px;
-  border-bottom: 1px solid #e7e9fc;
   background: #ffffff;
 }
 
@@ -160,6 +146,7 @@ address {
 
 .solutions {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding: 188px 0;
 }
 
 .solutions-container {
@@ -168,8 +155,6 @@ address {
   justify-content: center;
   align-items: center;
   gap: 48px;
-  padding: 188px 0;
-  height: 600px;
 }
 
 .solutions-title {
@@ -210,16 +195,33 @@ address {
   background-color: #404bbf;
 }
 
+.benefits {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .benefits-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 120px 0;
 }
 
 .benefits-title {
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .benefits-list {
@@ -230,13 +232,12 @@ address {
 .benefits-item {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   width: 264px;
 }
 
 .benefits-item-title {
+  margin-bottom: 8px;
   color: #2e2f42;
-
   /* Header 3 */
   font-size: 20px;
   font-weight: 500;
@@ -256,6 +257,7 @@ address {
 
 .team {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-container {
@@ -263,7 +265,6 @@ address {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 120px 0;
 }
 
 .team-title {
@@ -394,12 +395,12 @@ address {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding: 100px 0;
   height: 312px;
   width: 1158px;
 }
