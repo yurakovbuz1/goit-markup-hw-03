@@ -404,14 +404,14 @@ address {
   padding: 100px 0;
 }
 
-.footer-container {
+/* .footer-container {
   display: flex;
   flex-direction: column;
   width: 1158px;
-}
+} */
 
 .footer-logo {
-  /* display: inline-block; */
+  display: inline-block;
   margin-bottom: 16px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
