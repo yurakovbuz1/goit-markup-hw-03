@@ -401,12 +401,9 @@ address {
 .footer-container {
   display: flex;
   flex-direction: column;
-  height: 312px;
-  width: 1158px;
 }
 
 .footer-logo {
-  display: inline-block;
   margin-bottom: 16px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -418,6 +415,7 @@ address {
 }
 
 .footer-logo span {
+  display: inline-block;
   color: #f4f4fd;
   font-family: Raleway, sans-serif;
   font-size: 18px;
