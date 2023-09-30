@@ -355,16 +355,22 @@ address {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
+  flex-shrink: 0;
 }
 
 .portfolio-item {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  width: 360px;
+  width: calc((100% - 48px) / 3);
   height: 420px;
   padding-bottom: 32px;
   background: #ffffff;
+}
+
+.portfolio-item-img {
+  display: block;
+  max-width: 100%;
 }
 
 .portfolio-item-description-container {
@@ -395,13 +401,12 @@ address {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding: 100px 0;
-  /* height: 312px; */
   width: 1158px;
 }
 
