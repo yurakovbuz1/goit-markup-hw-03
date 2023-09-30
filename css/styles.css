@@ -411,7 +411,7 @@ address {
 }
 
 .footer-logo {
-  display: inline-block;
+  /* display: inline-block; */
   margin-bottom: 16px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
