@@ -33,7 +33,7 @@ address {
 }
 
 .container {
-  width: 1440px;
+  /* width: 1440px; */
   margin: 0 auto;
   padding-left: 156px;
   padding-right: 156px;
@@ -361,7 +361,7 @@ address {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  width: calc((100% - 48px) / 3);
+  width: 360px;
   height: 420px;
   padding-bottom: 32px;
   background: #ffffff;
@@ -395,15 +395,18 @@ address {
 
 .footer {
   background: #2e2f42;
-  padding: 100px 0;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
+  padding: 100px 0;
+  /* height: 312px; */
+  width: 1158px;
 }
 
 .footer-logo {
+  display: inline-block;
   margin-bottom: 16px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -412,7 +415,6 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
 }
 
 .footer-logo span {
