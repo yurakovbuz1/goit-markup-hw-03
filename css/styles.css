@@ -61,13 +61,16 @@ address {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1158px;
   height: 72px;
+  padding: 0 15px;
+  border-bottom: 1px solid #e7e9fc;
+  background: #ffffff;
 }
 
 .navigation {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
 .header-logo span {
@@ -82,6 +85,7 @@ address {
 
 .header-logo {
   color: #4d5ae5;
+  margin-right: 76px;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -96,8 +100,8 @@ address {
 }
 
 .nav-item {
+  padding: 24px 0;
   color: #2e2f42;
-
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -164,13 +168,14 @@ address {
   justify-content: center;
   align-items: center;
   gap: 48px;
+  padding: 188px 0;
   height: 600px;
 }
 
 .solutions-title {
   color: #ffffff;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
   /* Header 1 */
   font-size: 56px;
   font-weight: 700;
@@ -179,6 +184,8 @@ address {
 }
 
 .solutions-order-button {
+  min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
   cursor: pointer;
   color: #ffffff;
@@ -189,6 +196,7 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border: none;
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -202,15 +210,16 @@ address {
   background-color: #404bbf;
 }
 
-.benefits {
-}
-
 .benefits-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 120px 0 120px 0;
+  padding: 120px 0;
+}
+
+.benefits-title {
+  margin-bottom: 8px;
 }
 
 .benefits-list {
@@ -254,13 +263,13 @@ address {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .team-title {
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 72px;
   /* Header 2 */
   font-size: 36px;
   font-weight: 700;
@@ -270,7 +279,6 @@ address {
 }
 
 .team-list {
-  margin-top: 72px;
   margin-bottom: 120px;
   display: flex;
   gap: 24px;
@@ -279,8 +287,19 @@ address {
 .team-item {
   display: flex;
   flex-direction: column;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  background: var(--WHITE, #fff);
+}
+
+.team-item-description {
+  display: flex;
+  flex-direction: column;
   gap: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -298,7 +317,7 @@ address {
   letter-spacing: 0.02em;
 }
 
-.team-item-description {
+.team-item-position {
   color: #434455;
   text-align: center;
   /* Body */
@@ -308,16 +327,17 @@ address {
 }
 
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-container {
   display: flex;
   flex-direction: column;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio-title {
+  margin-bottom: 72px;
   color: #2e2f42;
   text-align: center;
   /* Header 2 */
@@ -333,30 +353,29 @@ address {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  margin-top: 72px;
-  margin-bottom: 48px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
   display: flex;
   flex-direction: column;
-  gap: 32px;
   box-sizing: border-box;
   width: 360px;
   height: 420px;
   padding-bottom: 32px;
-  border: 1px solid #e7e9fc;
   background: #ffffff;
 }
 
 .portfolio-item-description-container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding: 0 16px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item-title {
+  margin-bottom: 8px;
   color: #2e2f42;
   /* Header 3 */
   font-size: 20px;
@@ -380,13 +399,14 @@ address {
 .footer-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 16px;
+  padding: 100px 0;
   height: 312px;
+  width: 1158px;
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
