@@ -360,12 +360,7 @@ address {
 }
 
 .portfolio-item {
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
   width: calc((100% - 48px) / 3);
-  /* height: 420px; */
-  padding-bottom: 32px;
   background: #ffffff;
 }
 
